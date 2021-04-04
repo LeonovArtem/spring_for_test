@@ -1,4 +1,4 @@
-package com.example.demo.shild_book;
+package com.example.demo.shild_book.scope;
 
 public class Scope {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.example.demo.shild_book;
+package com.example.demo.shild_book.convert_types;
 
 /**
  * Когда данные одного типа присваиваются переменной другого типа, выполняется
@@ -13,7 +13,6 @@ package com.example.demo.shild_book;
 public class TypeAutoConvert {
     public static void main(String[] args) {
         extendedConvert();
-        lessConvert();
     }
 
     /**
@@ -29,18 +28,5 @@ public class TypeAutoConvert {
         //boolean intToBoolean = shortToInt;
 
         System.out.println("Done!");
-    }
-
-    /**
-     * <Сужающее преобразование>
-     * Чтобы выполнить преобразование двух несовместимых типов данных, нужно
-     * воспользоваться приведением типов. Приведение - это всего лишь явное преобразование типов.
-     */
-    private static void lessConvert() {
-        int intVar = 35000;
-        short intToShort = (short) intVar;
-
-        System.out.println(intToShort);
-
     }
 }
