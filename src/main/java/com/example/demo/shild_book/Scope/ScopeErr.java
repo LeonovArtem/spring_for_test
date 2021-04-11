@@ -1,4 +1,4 @@
-package com.example.demo.shild_book.scope;
+package com.example.demo.shild_book.Scope;
 
 public class ScopeErr {
     public static void main(String[] args) {

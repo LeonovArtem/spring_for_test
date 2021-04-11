@@ -1,4 +1,4 @@
-package com.example.demo.javaRush.level1;
+package com.example.demo.shild_book.OOP.InnerClass;
 
 public class Main {
     public static void main(String[] args) {

@@ -22,9 +22,8 @@ public class PrepareToReview {
         } else {
             System.out.println("isNotEquals");
         }
+
+        System.out.println(0.1 + 0.1 + 0.1);
     }
 
-    private static void example1() {
-        BitSet bitSet = new BitSet();
-    }
 }

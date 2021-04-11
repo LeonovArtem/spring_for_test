@@ -1,4 +1,4 @@
-package com.example.demo.shild_book.convert_types;
+package com.example.demo.shild_book.ConvertTypes;
 
 /**
  * Аввтоматическое продвижение типов
