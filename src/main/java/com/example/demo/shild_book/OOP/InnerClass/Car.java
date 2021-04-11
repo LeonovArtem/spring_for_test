@@ -1,4 +1,4 @@
-package com.example.demo.javaRush.level1;
+package com.example.demo.shild_book.OOP.InnerClass;
 
 /**
  * Внутренние классы бывают статические и нестатические.

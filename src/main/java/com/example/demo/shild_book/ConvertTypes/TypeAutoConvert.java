@@ -1,4 +1,4 @@
-package com.example.demo.shild_book.convert_types;
+package com.example.demo.shild_book.ConvertTypes;
 
 /**
  * Когда данные одного типа присваиваются переменной другого типа, выполняется
@@ -6,7 +6,7 @@ package com.example.demo.shild_book.convert_types;
  * 1) оба типа совместимы
  * 2) длина целевого типа больше длины исходного
  * При соблюдении этих условий выполняется <Расширяющее преобразование>.
- * <p>
+ *
  * Не существует автоматического преобразования Числовых типов(byte, short, int, long) в boolean и char !
  * boolean и char также несовместимы друг с другом
  */
