@@ -1,5 +1,7 @@
 package com.example.demo.shild_book.Loggining;
 
+import java.io.IOException;
+import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -19,6 +21,13 @@ public class SimpleLogger {
                 new Object[]{user.userName, userAge}
         );
 //        logger.warning("simple warning!");
+    }
+
+    private static void loggerExample() throws IOException {
+        // -Djava.util.logging.config.file=C:\Users\Artem\IdeaProjects\sprinDemo\src\main\resources\log.properties
+        FileHandler fileHandler = new FileHandler();
+        logger.setUseParentHandlers(false);
+        logger.addHandler(fileHandler);
     }
 
     static class User {
