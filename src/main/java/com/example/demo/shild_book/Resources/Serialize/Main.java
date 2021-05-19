@@ -16,12 +16,7 @@ public class Main {
                 FileInputStream file = new FileInputStream(INPUT_FILE);
                 ObjectInputStream objectInputStream = new ObjectInputStream(file);
         ) {
-            int personCount = objectInputStream.readInt();
-            Person[] people = new Person[personCount];
-
-            for (int i = 0; i < personCount; i++) {
-                people[i] = (Person) objectInputStream.readObject();
-            }
+            Person[] people = (Person[]) objectInputStream.readObject();
             System.out.println(Arrays.toString(people));
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
@@ -36,10 +31,7 @@ public class Main {
                 FileOutputStream fileOutputStream = new FileOutputStream(INPUT_FILE);
                 ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
         ) {
-            objectOutputStream.writeInt(peoples.length);
-            for (Person person : peoples) {
-                objectOutputStream.writeObject(person);
-            }
+            objectOutputStream.writeObject(peoples);
         } catch (IOException e) {
             e.printStackTrace();
         }
