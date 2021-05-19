@@ -7,7 +7,7 @@ public class Main {
     public static final String INPUT_FILE = "files/input_file.bin";
 
     public static void main(String[] args) {
-        writeObjects();
+//        writeObjects();
         readObjects();
     }
 
