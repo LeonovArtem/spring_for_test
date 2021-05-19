@@ -5,7 +5,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
 public class IOReadAndWrite {
-    private static final String inputFilePath = "files" + File.separator + "input_file.txt";
+    private static final String inputFilePath = "files" + File.separator + "input_file.bin";
     private static final String outputFilePath = "files" + File.separator + "output_file.txt";
 
     public static void main(String[] args) {
