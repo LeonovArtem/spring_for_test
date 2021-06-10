@@ -3,7 +3,7 @@ package com.example.demo.mentor.task;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Main {
+public class ArrayListExample {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         list.add("Привет");

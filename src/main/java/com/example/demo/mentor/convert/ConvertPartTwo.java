@@ -1,4 +1,4 @@
-package com.example.demo.mentor;
+package com.example.demo.mentor.convert;
 
 public class ConvertPartTwo {
     public static void main(String[] args) {
